@@ -1,0 +1,20 @@
+{
+  "name": "cloude-sql-app",
+  "version": "1.0.0",
+  "description": "An example application that connects to Cloud SQL DB",
+  "main": "app.js",
+  "type": "module",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4"
+  }
+}
