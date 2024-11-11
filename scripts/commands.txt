@@ -1,0 +1,1 @@
+docker run -d -v <service-acnt-key>:/path/to/service-account-key.json -p 127.0.0.1:3306:3306 gcr.io/cloud-sql-connectors/cloud-sql-proxy:2.14.0 --address 0.0.0.0 --port 3306 --credentials-file /path/to/service-account-key.json <cloud-sql-instance-uri>
