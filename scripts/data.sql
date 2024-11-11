@@ -1,3 +1,5 @@
+USE icecream_parlor;
+
 -- Insert into flavors
 INSERT INTO flavors (name, description, price) VALUES 
 ('Vanilla', 'Classic vanilla flavor', 3.00),
